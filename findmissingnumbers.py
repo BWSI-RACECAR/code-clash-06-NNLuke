@@ -51,7 +51,6 @@ class Solution:
             new_numbers = []
             for i in range(len(numbers)):
                  if i != len(numbers)-1:
-                    print(i)
                     if numbers[i+1]!=numbers[i] and numbers[i+1]!=(numbers[i]+1):
                         w= 1
                         while True:
