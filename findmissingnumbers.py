@@ -46,7 +46,7 @@ class Solution:
     def findMissingNumbers(self, numbers):
             #type numbers: list of float
             #return type: list of int)
-            numbers = [int(i) for i in numbers]
+            numbers = [int(round(i)) for i in numbers]
             numbers.sort()
             new_numbers = []
             for i in range(len(numbers)):
@@ -61,9 +61,7 @@ class Solution:
                                 break
                                 
                         w = 1
-            if new_numbers == ([2, 3, 4]):
-                return ([3, 4])
-            elif len(new_numbers) > 0:
+            if len(new_numbers) > 0:
                 return new_numbers
             else:
                 return "None missing"
