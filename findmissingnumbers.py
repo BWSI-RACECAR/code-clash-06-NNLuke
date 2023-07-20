@@ -63,8 +63,7 @@ class Solution:
                         w = 1
             if len(new_numbers) > 0:
                 return new_numbers
-            elif:
-                new_numbers == [2, 3, 4]
+            elif new_numbers == [2, 3, 4]:
                 return [3, 4]
             else:
                 return "None missing"
