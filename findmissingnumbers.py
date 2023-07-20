@@ -61,7 +61,10 @@ class Solution:
                                 break
                                 
                         w = 1
-            return new_numbers
+            if len(new_numbers) > 0:
+                return new_numbers
+            else:
+                return None
             pass
 
 def main():
