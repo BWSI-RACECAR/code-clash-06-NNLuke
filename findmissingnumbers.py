@@ -64,7 +64,7 @@ class Solution:
             if len(new_numbers) > 0:
                 return new_numbers
             else:
-                return None
+                return "None missing"
             pass
 
 def main():
